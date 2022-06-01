@@ -1,0 +1,6 @@
+# majorPatchVersion >= 74
+
+skillid skill
+int32   stage
+vec3    loc
+angle   w

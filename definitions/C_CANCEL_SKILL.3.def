@@ -1,0 +1,4 @@
+# majorPatchVersion >= 74
+
+skillid skill
+int32   type
