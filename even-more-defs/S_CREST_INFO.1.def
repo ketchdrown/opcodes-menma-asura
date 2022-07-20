@@ -1,0 +1,6 @@
+array  glyphs
+- uint32 id
+- byte   enabled
+
+int32  pointsMax
+int32  pointsUsed

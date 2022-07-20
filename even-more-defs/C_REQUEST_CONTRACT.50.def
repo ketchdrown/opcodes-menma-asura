@@ -1,0 +1,5 @@
+int32 ContractType
+int64 NpcCreatureId
+int32 ValueParam
+string ContractRequestee
+bytes Param

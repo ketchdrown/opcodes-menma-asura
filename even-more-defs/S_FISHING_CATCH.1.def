@@ -1,0 +1,3 @@
+int32 rodId
+uint64 gameId
+int32 unk1

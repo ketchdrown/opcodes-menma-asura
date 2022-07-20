@@ -1,0 +1,5 @@
+array  items
+- string text
+- int32  item
+
+uint64 owner

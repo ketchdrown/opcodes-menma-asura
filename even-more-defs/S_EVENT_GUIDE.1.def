@@ -1,0 +1,16 @@
+array weeks
+- array days
+- - uint16 status #0 - Not available, 1 - available, 257 - taken
+- - uint32 item
+- - uint32 quantity
+- uint32 id
+- uint32 unk #0
+
+array events
+- string caption
+- string description
+- uint32 id
+- uint64 start  #Unix time
+- uint64 end    #Unix time
+
+uint32 unk

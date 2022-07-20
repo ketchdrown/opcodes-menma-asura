@@ -1,0 +1,16 @@
+array buyBasket
+-uint32 item
+-int32 amount
+
+array sellBasket
+-uint32 item
+-int32 amount
+
+uint64 gameId
+uint32 contract
+int32 unk4
+int32 unk5
+int32 cost
+int32 unk7
+int32 sellPrice
+int32 unk9

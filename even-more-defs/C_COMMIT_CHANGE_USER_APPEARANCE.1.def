@@ -1,0 +1,7 @@
+bytes  details
+bytes  details2
+int32  playerId
+int32  race
+int32  gender
+uint64 appearance
+int32  unk # 100

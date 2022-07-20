@@ -1,0 +1,15 @@
+ref        skills
+array      skills
+- ref      requiredSkills
+- ref      requiredItems
+- uint32   id
+- bool     active
+- uint32   requiredMoney
+- uint32   requiredLevel
+- bool     available
+- array    requiredItems
+- - uint32 id
+- - uint32 amount
+- array    requiredSkills
+- - uint32 id
+- - bool   active

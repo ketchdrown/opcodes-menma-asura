@@ -1,0 +1,20 @@
+array  guilds
+- string name
+- string master
+- string unk
+- string ad
+- string emblem
+- int32  level
+- int64  founded
+- int64  members # maybe two int32 fields?
+- int32  praise
+- byte   unk2
+- int32  gvg # ?
+- byte   unk3
+- int32  fame
+- int32  crusade
+
+int32  currentPage
+int32  totalPages
+int32  totalGuilds
+int32  unk

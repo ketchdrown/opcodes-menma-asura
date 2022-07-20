@@ -1,0 +1,12 @@
+# majorPatchVersion >= 85
+
+uint64 gameId
+int32 type # 1 = bank, 12 = costume
+int32 page
+int64 money
+uint32 pocket
+uint32 invenPos
+uint32 id
+uint64 dbid
+int32 amount
+uint32 bankPos

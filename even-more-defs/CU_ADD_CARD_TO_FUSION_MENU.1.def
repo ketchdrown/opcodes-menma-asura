@@ -1,0 +1,7 @@
+uint32 unk
+uint32 contractId
+uint32 type
+int32 cardId
+int32 slot
+int32 amount
+uint64 dbid

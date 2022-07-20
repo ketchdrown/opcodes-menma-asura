@@ -1,0 +1,19 @@
+uint16 serverId
+uint16 presetCount
+uint16 currentPreset
+uint32 collectionLevel
+uint32 collectionPoints
+
+array cards
+- uint32 cardId
+- uint32 cardCount
+
+array presets
+- uint32 index
+- array presetCards
+- - uint32 cardId
+
+array collectionPointsRewards
+- uint32 index
+
+string name

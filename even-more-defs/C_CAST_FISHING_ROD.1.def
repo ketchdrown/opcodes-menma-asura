@@ -1,0 +1,22 @@
+# majorPatchVersion >= 85 && majorPatchVersion < 88
+
+byte   unk01
+byte   unk02
+byte   unk03
+byte   unk04
+
+
+
+uint32 fishingRod
+byte   unk09
+byte   unk10
+byte   unk11
+byte   unk12
+byte   unk13
+byte   unk14
+byte   unk15
+byte   unk16
+
+
+
+uint32 castDistance
