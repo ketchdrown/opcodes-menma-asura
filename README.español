@@ -27,3 +27,6 @@ dispatch.hook('S_PLAYER_STAT_UPDATE', <b>dispatch.majorPatchVersion >= 109 ? 16 
 dispatch.hook('S_PLAYER_STAT_UPDATE', <b>14</b>, (event) => ....
 
 * Guarde el archivo -> deshabilite la actualización automática para que sus ediciones no cambien
+
+
+¡Comprobando edicion de archivo LEAME.rm!
