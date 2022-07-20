@@ -1,0 +1,5 @@
+bool searching
+bool dungeon  # false for BG, true for dungeon
+array matchingEvents
+- int32 event
+

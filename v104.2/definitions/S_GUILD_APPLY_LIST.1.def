@@ -1,0 +1,6 @@
+array  apps
+- string name
+- string message
+- uint32 player
+- int32  time
+- int32  unk

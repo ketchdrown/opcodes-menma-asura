@@ -1,0 +1,4 @@
+int32 zone
+vec3  loc
+bool  quick # true = no loading screen
+int64 status

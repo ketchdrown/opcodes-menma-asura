@@ -1,0 +1,3 @@
+uint32 contract # 0 = invalid
+uint32 id
+bool   active

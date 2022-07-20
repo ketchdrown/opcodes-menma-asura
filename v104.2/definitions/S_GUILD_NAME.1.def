@@ -1,0 +1,5 @@
+string guild
+string rank
+string unk
+string guildEmblem
+uint64 cid

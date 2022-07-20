@@ -1,0 +1,14 @@
+array	perks
+- int32	id
+- int32	level
+
+int32	level
+int64	exp
+int32	totalPoints
+int32	usedPoints
+int32	dailyExp
+int32	dailyExpMax
+int32	prevLevel
+int32	prevTotalPoints
+int32	preset				^96
+int32	additionalPresets	^96

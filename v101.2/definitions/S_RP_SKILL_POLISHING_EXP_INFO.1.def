@@ -1,0 +1,6 @@
+int32 unusedEp
+int32 totalEpPoints # idk why it's repeated twice
+int32 totalEpPointsCopy # idk why it's repeated twice
+uint64 epExpTotal
+uint64 epLevelLow
+uint64 epLevelUp

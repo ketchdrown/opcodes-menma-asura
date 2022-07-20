@@ -1,0 +1,5 @@
+uint64 gameId
+int32 unk1
+uint64 unk2
+uint64 unk3
+bool unk4 # always false?

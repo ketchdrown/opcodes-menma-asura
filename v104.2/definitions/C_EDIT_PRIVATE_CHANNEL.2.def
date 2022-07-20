@@ -1,0 +1,6 @@
+ref members
+ref name
+
+uint16 password
+string name
+array<uint32> members # playerIds

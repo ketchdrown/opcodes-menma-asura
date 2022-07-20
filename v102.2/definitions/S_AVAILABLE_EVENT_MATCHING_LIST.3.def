@@ -1,0 +1,86 @@
+count  quests
+offset quests
+count  dailyBonusRewards
+offset dailyBonusRewards
+count  weeklyBonusRewards
+offset weeklyBonusRewards
+
+uint32 online           # Bit field.
+int32  totalCompleted
+int32  dungeonCompleted
+int32  pvpCompleted
+int32  fieldCompleted
+int32  currWeeklyBonusCompleted
+int32  currWeeklyBonusCount
+int32  currDailyBonusCompleted
+int32  currDailyBonusCount   # 3 => 8
+int32  currDailyBonus   # 0 when currDailyBonusCount 3, and 1 when 8
+byte   unk_b1           # 0
+byte   unk_b2           # 1
+byte   unk_b3           # 1
+int32  dailyBonusRemainSec
+int32  weeklyBonusRemainSec
+int32  vanguardCredits
+bool   canOpen          # controls if you can open UI or not. Under level 20, this is false, else true.
+byte   unk_b4           # 1
+bool   requested        # request type from C_AVAILABLE_EVENT_MATCHING_LIST (unk) # 0 = client, 1 = user
+int32  limitAll
+int32  limitPvp
+int32  limitDungeon
+int32  limitField
+int32  level
+
+array weeklyBonusRewards
+- int32  templateId
+- int32  amount
+- uint32 unk
+
+array dailyBonusRewards
+- int32  templateId
+- int32  amount
+- uint32 unk
+
+array   quests
+- count  unk_arr1
+- offset unk_arr1
+- count  rewards
+- offset rewards
+- count  dailyBonusRewards
+- offset dailyBonusRewards
+- count  unk_arr2
+- offset unk_arr2
+- count  unk_arr3
+- offset unk_arr3
+
+- int32  id
+- int32  completeCount  # indicates the number of dungeon engagement (or/and completion of this quest) in the same day.
+- byte   unk_b1         # 0
+- int32  type           # 0: dungeon/battleground, 1: solo dungeon (Ace Dungeons only), 2: field/solo dungeon (Arena, Pit, Guardians, etc.)
+- byte   unk_b2         # 1
+- uint32 unk3           # 1
+- bool   completed      # true when completed (undelivered)
+- uint32 coins          # advanture coins cost
+
+- array rewards
+- - int32  templateId
+- - int32  amount
+- - uint32 unk
+
+- array dailyBonusRewards
+- - int32  templateId
+- - int32  amount
+- - uint32 unk
+
+- array unk_arr2
+- - uint32 unk1
+- - uint32 unk2
+- - uint32 unk3
+
+- array unk_arr3
+- - uint32 unk1
+- - uint32 unk2
+- - uint32 unk3
+
+- array unk_arr1        # I have no idea why this array just like this, at the end, while its offset and count at first.
+- - uint32 unk1
+- - uint32 unk2

@@ -1,0 +1,10 @@
+array items
+- uint32 slot
+- uint64 dbid
+- uint32 passivitySet
+
+array crystals
+- uint32 slot
+- uint32 id
+
+uint64 gameId

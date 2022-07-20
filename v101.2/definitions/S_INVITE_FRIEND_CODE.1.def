@@ -1,0 +1,7 @@
+string code
+
+array recruits
+- string name
+
+uint32 numRecruits
+uint32 maxRecruits

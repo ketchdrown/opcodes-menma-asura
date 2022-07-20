@@ -1,0 +1,5 @@
+array members
+- uint32 playerId
+
+string name
+uint16 password

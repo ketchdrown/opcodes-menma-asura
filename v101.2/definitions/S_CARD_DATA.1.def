@@ -1,0 +1,19 @@
+uint16 unk1
+uint16 serverId
+uint16 unk2
+uint16 unk3
+uint32 unk4
+uint32 activePresetId
+
+array cards
+- uint32 id
+- uint32 quantity
+
+array presets
+- array cards
+- - uint32 id
+
+array completedRewards
+- uint32 id
+
+string playerName

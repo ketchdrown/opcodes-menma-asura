@@ -1,0 +1,7 @@
+string authorName
+string recipient
+string message
+uint64 player
+byte   unk1
+byte   gm
+byte   founder # CBT User. Early access set.

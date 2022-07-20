@@ -1,0 +1,5 @@
+uint32 contract
+uint32 pocket
+uint32 slot
+uint32 item
+uint32 quantity

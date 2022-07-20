@@ -1,0 +1,5 @@
+string name
+string message
+int32  id
+byte   unk
+byte   raid

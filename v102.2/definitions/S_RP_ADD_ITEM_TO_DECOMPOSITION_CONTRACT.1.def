@@ -1,0 +1,5 @@
+bool success
+int32 contract
+uint64 dbid
+int32 itemid
+int32 amount

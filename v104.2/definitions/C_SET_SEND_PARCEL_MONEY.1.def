@@ -1,0 +1,2 @@
+uint32 contract
+uint64 gold	# technically speaking, this is in copper. So 1 copper = 1, 1 silver = 100, 1 gold = 10000, ad nauseum.

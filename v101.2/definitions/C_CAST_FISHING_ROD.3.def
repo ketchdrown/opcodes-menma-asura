@@ -1,0 +1,6 @@
+uint32 counter # times triggered
+uint32 unk1
+uint32 unk2 # always 268534460
+uint32 rodId
+uint64 dbid
+uint32 power

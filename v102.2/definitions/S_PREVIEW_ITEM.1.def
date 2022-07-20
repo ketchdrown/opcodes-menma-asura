@@ -1,0 +1,6 @@
+array  items
+- uint64 uid
+- int32  item
+- int32  model
+- int32  dye
+- string text

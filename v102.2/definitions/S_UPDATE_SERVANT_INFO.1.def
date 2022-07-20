@@ -1,0 +1,12 @@
+uint16    unk1
+uint16    unk2
+uint16    numAbility
+uint16    unk4
+uint16    unk5
+uint64    dbid
+uint32    type
+uint32    id
+uint32    grade
+uint32    unk9
+uint32    energy
+int32     fellowship
