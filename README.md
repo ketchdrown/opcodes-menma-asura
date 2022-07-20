@@ -16,4 +16,14 @@ dispatch.hook('C_PLAYER_LOCATION', <b>6</b>, (event) => .....
 
 dispatch.hook('C_PLAYER_LOCATION', <b>5</b>, (event) => .....
 
+* Example no.2
+* What if there is something more then a number?
+ 
+dispatch.hook('S_PLAYER_STAT_UPDATE', dispatch.majorPatchVersion >= 109 ? 16 : 15, (event) => ....
+
+* Delete "dispatch.majorPatchVersion >= 109 ? 16 : 15"
+* Type pure number (in this case = 14 for patch 100.2)
+
+dispatch.hook('S_PLAYER_STAT_UPDATE', 14, (event) => ....
+
 * Save the file -> disable autoupdate so your edits won't change
