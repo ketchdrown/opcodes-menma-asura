@@ -166,4 +166,6 @@ deleted.
 
 ## Contributing
 
-[Calli](https://github.com/caali-hackerman) [TeraProxy](https://github.com/TeraProxy)
+* [Calli](https://github.com/caali-hackerman)
+* [TeraProxy](https://github.com/TeraProxy)
+* [Salty](https://github.com/SaltyMonkey)
