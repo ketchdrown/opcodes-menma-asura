@@ -5,7 +5,7 @@ Full list of opcodes / definitions for patch v92.4 and v100.2
 
 
 ### How to update any script manual monkaS
-* Open index.js (edit it via text editor VS code studio pref)
+* Open index.js (edit it via any text editor VS code studio pref)
 * Search for definitions: (example)
 
 dispatch.hook('C_PLAYER_LOCATION', <b>6</b>, (event) => .....
