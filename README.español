@@ -1,1 +1,29 @@
-.
+# Opcodes | Definiciones para servidores privados
+Lista completa de códigos de operación/definiciones para los parches v92.4 y v100.2
+
+## Este es un repositorio de tipo de datos, no un script de trabajo en sí mismo
+¡Siéntete libre de contribuir con tus datos! -> abrir solicitud de extracción (open pull request)
+
+### Cómo actualizar cualquier manual de script
+* Abrir index.js (edítelo a través de cualquier editor de texto VS code studio pref)
+* Buscar definiciones: (ejemplo)
+
+dispatch.hook('C_PLAYER_LOCATION', <b>6</b>, (event) => .....
+
+* Consulte [PARCHE DE DEFINICIONES v100.2](https://github.com/ketchdrown/data-private-servers/tree/main/v100.02/definitions)
+* Compruebe si el valor después de la definición dentro del código es igual al que funciona para el X parche del juego
+* Si no es así, cambie el valor (en este caso será igual a "5")
+
+dispatch.hook('C_PLAYER_LOCATION', <b>5</b>, (event) => .....
+
+* Ejemplo no.2
+* ¿Qué pasa si hay algo más que un número?
+ 
+dispatch.hook('S_PLAYER_STAT_UPDATE', <b>dispatch.majorPatchVersion >= 109 ? 16 : 15</b>, (event) => ....
+
+* Elimine "dispatch.majorPatchVersion >= 109 ? 16 : 15"
+* Escriba número puro (en este caso = 14 para el parche 100.2)
+
+dispatch.hook('S_PLAYER_STAT_UPDATE', <b>14</b>, (event) => ....
+
+* Guarde el archivo -> deshabilite la actualización automática para que sus ediciones no cambien
