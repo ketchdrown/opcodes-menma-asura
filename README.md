@@ -2,7 +2,7 @@
 Full list of opcodes / definitions for patch v92.4 and v100.2
 
 ## This is a data-type repo, not a working script itself
-
+Feel free to contibute with your data! -> open pull request
 
 ### How to update any script manual monkaS
 * Open index.js (edit it via any text editor VS code studio pref)
