@@ -10,7 +10,7 @@ Feel free to contibute with your data! -> open pull request
 
 dispatch.hook('C_PLAYER_LOCATION', <b>6</b>, (event) => .....
 
-* Check out [DEFINITIONS PATCH v100.2](https://github.com/ketchdrown/data-private-servers/tree/master/v100.02/definitions)
+* Check out [DEFINITIONS PATCH v100.2](https://github.com/ketchdrown/data-private-servers/tree/main/v100.02/definitions)
 * Check if the value after definition inside the code equeals the one that is working for x game patch
 * If it is not change the value (in this case it will equals "5"
 
